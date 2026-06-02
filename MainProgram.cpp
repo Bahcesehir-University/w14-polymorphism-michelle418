@@ -96,7 +96,7 @@ public:
     //   - Then set name = "Square".
     Square(double side) :  Rectangle(side, side)  {
         // TODO
-        name = " Square";
+        name = "Square";
         
     }
     // Note: Square reuses Rectangle::area() — no need to rewrite it.
